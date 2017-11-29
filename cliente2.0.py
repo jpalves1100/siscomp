@@ -117,7 +117,7 @@ def thread1():
             u.nome = raw_input("Digite seu nome.\n")
             u.senha = raw_input("Digite sua senha.\n")
             nome = u.nome
-            senha = u.senh
+            senha = u.senha
             dados = []
             dados.append('fazerlogin')
             dados.append(u.nome)
